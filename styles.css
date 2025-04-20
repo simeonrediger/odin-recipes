@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1a1a1a;
+  color: #fafafa;
+  font-family: 'Trebuchet MS', sans-serif;
+  padding: 32px 64px;
+}
+
+h1 {
+  margin: 16px 0 32px;
+  text-align: center;
+}
+
+ul {
+  background-color: #303030;
+  border-radius: 16px;
+  font-size: 22px;
+  list-style: none;
+  margin: 32px auto;
+  max-width: 700px;
+  padding: 24px 32px;
+}
+
+a {
+  color: #dd6644;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #dd9977;
+}
