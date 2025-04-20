@@ -10,7 +10,14 @@ body {
   background-color: #1a1a1a;
   color: #fafafa;
   font-family: 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
   padding: 32px 64px;
+}
+
+.card, h2, p {
+  margin-inline: auto;
+  max-width: 700px;
 }
 
 h1 {
@@ -18,14 +25,17 @@ h1 {
   text-align: center;
 }
 
-ul {
+.card {
   background-color: #303030;
   border-radius: 16px;
   font-size: 22px;
-  list-style: none;
-  margin: 32px auto;
-  max-width: 700px;
+  list-style-position: inside;
+  margin-block: 24px;
   padding: 24px 32px;
+}
+
+.unstyled {
+  list-style: none;
 }
 
 a {
@@ -35,4 +45,39 @@ a {
 
 a:hover {
   color: #dd9977;
+}
+
+.centered {
+  display: block;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin: 16px auto;
+}
+
+h2 {
+  margin-top: 64px;
+  margin-bottom: 8px;
+}
+
+p {
+  margin-top: 8px;
+}
+
+li:has(ul, ol) {
+  margin-block: 16px;
+}
+
+ul ul {
+  list-style: inside;
+}
+
+ol ol {
+  list-style: decimal;
+}
+
+ol ol li {
+  margin-left: 20px;
 }
