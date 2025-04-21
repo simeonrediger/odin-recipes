@@ -79,5 +79,9 @@ ol ol {
 }
 
 ol ol li {
-  margin-left: 20px;
+  margin-left: 28px;
+}
+
+strong {
+  font-size: 28px;
 }
